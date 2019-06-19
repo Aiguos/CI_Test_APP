@@ -11,6 +11,8 @@ assembly_info:
 
 platform: Any CPU
 
+services:
+  - mssql2014 
 
 build:
     parallel: true
@@ -25,6 +27,10 @@ test:
     only:
       - '**\*.Not-Dot-Test.dll'
       
-  
+    categories:
+    - A
+    - B
+test_script:
+- %xunit20%\xunit.console.x86 "C:\projects\CI_TEST\Not-Dot-Test\bin\Debug\Not.Dot.Test.dll"  -appveyor  
 
   
