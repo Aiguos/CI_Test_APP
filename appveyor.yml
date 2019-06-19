@@ -35,6 +35,6 @@ test_script:
     - dir
     - cd Debug
     - dir
-    - xunit.console Not.Dot.Test.dll /appveyor  
+    - xunit.console Not-Dot-Test.dll /appveyor  
 
   
