@@ -24,8 +24,6 @@ build:
 test:
   # only assemblies to test
   assemblies:
-    only:
-      - '**\*.Not.Dot.Test.dll'
     
 test_script:
     - xunit.console "%APPVEYOR_BUILD_FOLDER%\Not-Dot-Test\bin\Debug\Not.Dot.Test.dll"  /appveyor  
