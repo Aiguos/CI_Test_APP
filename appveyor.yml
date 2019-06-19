@@ -17,7 +17,10 @@ build:
     project: \CI_TEST\CI_TEST.sln
     publish_wap: true
     verbosity: minimal
-    
+
+
+after_build:
+    - appveyor PushArtifact "C:\Users\appveyor\AppData\Local\Temp\1\hv3vg9gle3\CI_TEST.zip" -Type WebDeployPackage
 
 test:
   # only assemblies to test
@@ -26,4 +29,4 @@ test:
       - '**\*.Not-Dot-Test.dll'
       
 test_script:
-  - xunit.console "C:\projects\ci-test-app\CI_TEST\Not-Dot-Test\bin\Debug\Not-Dot-Test.dll" /appveyor
+  %xunit20%\xunit.console "C:\projects\ci-test-app\CI_TEST\Not-Dot-Test\bin\Debug\Not-Dot-Test.dll" -appveyor
