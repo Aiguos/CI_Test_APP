@@ -3,3 +3,6 @@ test:
   assemblies:
     only:
       - '**\*.XunitTest.dll'
+      
+test_script:
+  - dotnet test
