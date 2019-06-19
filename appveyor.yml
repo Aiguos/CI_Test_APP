@@ -27,5 +27,5 @@ test:
       
   
 artifacts:
-  
+  - path: '*.7z'
   
