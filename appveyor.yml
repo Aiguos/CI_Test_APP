@@ -26,6 +26,5 @@ test:
       - '**\*.Not-Dot-Test.dll'
       
   
-artifacts:
-  - path: '*.7z'
+
   
