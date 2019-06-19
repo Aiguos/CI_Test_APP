@@ -6,7 +6,7 @@ namespace Not_Dot_Test
     {
 
 
-        [Fact]
+        [Fact, Trait("Category", "A")]
         public void PassTest()
         {
             var passbool = true;
@@ -16,7 +16,7 @@ namespace Not_Dot_Test
 
         }
 
-        [Fact]
+        [Fact, Trait("Category", "B")]
         public void FailTest()
         {
             var failbool = false;

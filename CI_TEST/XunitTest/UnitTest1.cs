@@ -10,7 +10,7 @@ namespace XunitTest
         {
             const bool boool = true;
 
-            Assert.True(boool);
+            Assert.False(boool);
         }
     }
 }

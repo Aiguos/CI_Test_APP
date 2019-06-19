@@ -1,0 +1,14 @@
+C:\Git Repos\CI_Test_APP\CI_TEST\XunitTest\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Git Repos\CI_Test_APP\CI_TEST\XunitTest\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Git Repos\CI_Test_APP\CI_TEST\XunitTest\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Git Repos\CI_Test_APP\CI_TEST\XunitTest\bin\Debug\netcoreapp2.2\XunitTest.deps.json
+C:\Git Repos\CI_Test_APP\CI_TEST\XunitTest\bin\Debug\netcoreapp2.2\XunitTest.runtimeconfig.json
+C:\Git Repos\CI_Test_APP\CI_TEST\XunitTest\bin\Debug\netcoreapp2.2\XunitTest.runtimeconfig.dev.json
+C:\Git Repos\CI_Test_APP\CI_TEST\XunitTest\bin\Debug\netcoreapp2.2\XunitTest.dll
+C:\Git Repos\CI_Test_APP\CI_TEST\XunitTest\bin\Debug\netcoreapp2.2\XunitTest.pdb
+C:\Git Repos\CI_Test_APP\CI_TEST\XunitTest\obj\Debug\netcoreapp2.2\XunitTest.csprojAssemblyReference.cache
+C:\Git Repos\CI_Test_APP\CI_TEST\XunitTest\obj\Debug\netcoreapp2.2\XunitTest.csproj.CoreCompileInputs.cache
+C:\Git Repos\CI_Test_APP\CI_TEST\XunitTest\obj\Debug\netcoreapp2.2\XunitTest.AssemblyInfoInputs.cache
+C:\Git Repos\CI_Test_APP\CI_TEST\XunitTest\obj\Debug\netcoreapp2.2\XunitTest.AssemblyInfo.cs
+C:\Git Repos\CI_Test_APP\CI_TEST\XunitTest\obj\Debug\netcoreapp2.2\XunitTest.dll
+C:\Git Repos\CI_Test_APP\CI_TEST\XunitTest\obj\Debug\netcoreapp2.2\XunitTest.pdb
