@@ -26,4 +26,4 @@ test:
       - '**\*.Not-Dot-Test.dll'
       
 test_script:
-  xunit.console.clr4 "C:\projects\ci-test-app\CI_TEST\Not-Dot-Test" /appveyor
+  - xunit.console.clr4 "C:\projects\ci-test-app\CI_TEST\Not-Dot-Test" /appveyor
