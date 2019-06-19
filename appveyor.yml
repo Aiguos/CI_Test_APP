@@ -27,6 +27,8 @@ test:
     
 test_script:
     - dir 
+    - cd CI_TEST
+    - dir
     - cd Not-Dot-Test
     - dir
     - xunit.console "%APPVEYOR_BUILD_FOLDER%\Not-Dot-Test\bin\Debug\Not.Dot.Test.dll"  /appveyor  
