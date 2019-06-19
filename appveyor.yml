@@ -26,6 +26,6 @@ test:
   assemblies:
     
 test_script:
-    - xunit.console "%APPVEYOR_BUILD_FOLDER%\CI_TEST\Not-Dot-Test\bin\Debug\Not-Dot-Test.dll"  /appveyor  
+    - %xunit20%\xunit.console "%APPVEYOR_BUILD_FOLDER%\CI_TEST\Not-Dot-Test\bin\Debug\Not-Dot-Test.dll"  -appveyor  
 
   
