@@ -16,7 +16,7 @@ build:
     parallel: true
     project: \CI_TEST\CI_TEST.sln
     publish_wap: true
-    verbosity: normal
+    verbosity: minimal
     
 
 test:
@@ -26,4 +26,4 @@ test:
       - '**\*.Not-Dot-Test.dll'
       
 test_script:
-  - xunit.console "C:\projects\ci-test-app\CI_TEST\Not-Dot-Test" /appveyor
+  - xunit.console "C:\projects\ci-test-app\CI_TEST\bin\Debug\Not-Dot-Test.dll" /appveyor
