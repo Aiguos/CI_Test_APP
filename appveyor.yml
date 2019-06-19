@@ -5,4 +5,4 @@ test:
       - '**\*.XunitTest.dll'
       
 test_script:
-  - dotnet test "[%APPVEYOR_BUILD_FOLDER%\CI_TEST\XunitTest]"
+  - dotnet test "C:\projects\ci-test-app\CI_TEST\XunitTest"
