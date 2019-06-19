@@ -1,12 +1,6 @@
 version: 1.0.{build}
 
-
 image: Visual Studio 2019
-
-
-
-Services:
-    - mssql2014
 
 assembly_info:
   patch: true
@@ -19,14 +13,12 @@ platform: Any CPU
 
 Configuration: Debug
 
-
 build:
     parallel: true
     project: CI_TEST.sln
     publish_wap: true
     verbosity: normal
     
-
 
 test:
   # only assemblies to test
