@@ -26,10 +26,6 @@ test:
   assemblies:
     only:
       - '**\*.Not-Dot-Test.dll'
-      
-    categories:
-    - A
-    - B
     
 test_script:
     - xunit.console "C:\projects\CI_TEST\Not-Dot-Test\bin\Debug\Not.Dot.Test.dll"  /appveyor  
