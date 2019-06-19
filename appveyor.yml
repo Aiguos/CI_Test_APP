@@ -29,4 +29,3 @@ test:
       - '**\*.Not-Dot-Test.dll'
       
 test_script:
-  - %xunit20%\xunit.console "C:\projects\ci-test-app\CI_TEST\Not-Dot-Test\bin\Debug\Not-Dot-Test.dll" 
