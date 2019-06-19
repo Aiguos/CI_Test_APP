@@ -1,4 +1,8 @@
 before_build:
   - cmd: ECHO this is batch
   - ps: Write-Host "This is PowerShell"
-  - pwsh: Write-Host "This is PowerShell Core"
+
+
+test:
+    assemblies:
+        '*\CI_TEST\XunitTest\bin\Debug\netcoreapp2.2\XunitTest.dll'
