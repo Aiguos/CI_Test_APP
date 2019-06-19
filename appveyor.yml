@@ -1,6 +1,6 @@
 version: 1.0.{build}
 
-image: Visual Studio 2015
+image: Visual Studio 2019
 
 assembly_info:
   patch: true
@@ -26,15 +26,6 @@ test:
   assemblies:
     
 test_script:
-    - dir 
-    - cd CI_TEST
-    - dir
-    - cd Not-Dot-Test
-    - dir
-    - cd bin
-    - dir
-    - cd Debug
-    - dir
-    - xunit.console Not-Dot-Test.dll /appveyor  
+    - xunit.console "%APPVEYOR_BUILD_FOLDER%\Not-Dot-Test\bin\Debug\Not-Dot-Test.dll"  /appveyor  
 
   
