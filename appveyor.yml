@@ -2,7 +2,7 @@ test:
   # only assemblies to test
   assemblies:
     only:
-      - '**\*.XunitTest.dll'
+      - '**\*.Not-Dot-Test.dll'
       
 test_script:
-  - dotnet test "C:\projects\ci-test-app\CI_TEST\XunitTest"
+  - dotnet test "C:\projects\ci-test-app\CI_TEST\Not-Dot-Test"
