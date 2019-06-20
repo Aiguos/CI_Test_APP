@@ -32,7 +32,7 @@ test_script:
 
 on_success:
     - ps: if (!(Test-Connection 127.0.0.1)){ throw "Connection is not live"  }
-    - PS: [string] $url = 'http://www.google.com'
+    - PS: try { $R = Invoke-WebRequest -URI http://google.com } catch { $_.Exception.Message }
 
 
   
