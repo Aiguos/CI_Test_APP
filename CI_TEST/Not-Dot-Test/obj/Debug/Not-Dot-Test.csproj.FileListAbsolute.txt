@@ -34,3 +34,5 @@ C:\Git Repos\CI_Test_APP\CI_TEST\Not-Dot-Test\bin\Debug\System.Xml.ReaderWriter.
 C:\Git Repos\CI_Test_APP\CI_TEST\Not-Dot-Test\bin\Debug\xunit.execution.desktop.dll
 C:\Git Repos\CI_Test_APP\CI_TEST\Not-Dot-Test\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 C:\Git Repos\CI_Test_APP\CI_TEST\Not-Dot-Test\bin\Debug\xunit.execution.desktop.xml
+C:\Git Repos\CI_Test_APP\CI_TEST\Not-Dot-Test\bin\Debug\MySql.Data.dll
+C:\Git Repos\CI_Test_APP\CI_TEST\Not-Dot-Test\bin\Debug\MySql.Server.dll
