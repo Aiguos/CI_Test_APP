@@ -31,5 +31,5 @@ test_script:
 
 
 on_success:
-    - ps: if (!(Test-Connection 128.0.0.1)){ throw "Connection is not live"  }
+    - ps: if (!(Test-Connection 127.0.0.1)){ throw "Connection is not live"  }
   
