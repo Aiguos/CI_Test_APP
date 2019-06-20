@@ -26,12 +26,7 @@ test:
   assemblies:
     
 test_script:
-    - '%xunit20%\xunit.console.x86 "%APPVEYOR_BUILD_FOLDER%\CI_TEST\Not-Dot-Test\bin\Debug\Not-Dot-Test.dll"  -appveyor'  
-    
-
-Deploy:
-    
-
+    - '%xunit20%\xunit.console.x86 "%APPVEYOR_BUILD_FOLDER%\CI_TEST\Not-Dot-Test\bin\Debug\Not-Dot-Test.dll"  -appveyor'      
 
 
 on_success:
