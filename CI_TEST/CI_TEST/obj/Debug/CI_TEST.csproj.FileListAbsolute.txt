@@ -80,3 +80,7 @@ C:\Git Repos\CI_Test_APP\CI_TEST\CI_TEST\obj\Debug\CI_TEST.csproj.CoreCompileInp
 C:\Git Repos\CI_Test_APP\CI_TEST\CI_TEST\obj\Debug\CI_TEST.csproj.CopyComplete
 C:\Git Repos\CI_Test_APP\CI_TEST\CI_TEST\obj\Debug\CI_TEST.dll
 C:\Git Repos\CI_Test_APP\CI_TEST\CI_TEST\obj\Debug\CI_TEST.pdb
+C:\Git Repos\CI_Test_APP\CI_TEST\CI_TEST\bin\EntityFramework.dll
+C:\Git Repos\CI_Test_APP\CI_TEST\CI_TEST\bin\EntityFramework.SqlServer.dll
+C:\Git Repos\CI_Test_APP\CI_TEST\CI_TEST\bin\EntityFramework.xml
+C:\Git Repos\CI_Test_APP\CI_TEST\CI_TEST\bin\EntityFramework.SqlServer.xml
