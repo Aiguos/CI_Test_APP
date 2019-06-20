@@ -32,4 +32,10 @@ test_script:
 
 on_success:
     - ps: if (!(Test-Connection 127.0.0.1)){ throw "Connection is not live"  }
+    - PS: [string] $url = 'http://www.google.com' 
+     -PS: [net.httpWebRequest] $req = [net.webRequest]::create($url) 
+     -PS: $req.Method = "HEAD" 
+     -PS: [net.httpWebResponse] $res = $req.getResponse() 
+     -PS: if (!($res.StatusCode -ge "200")){throw "Website is down!"} 
+
   
