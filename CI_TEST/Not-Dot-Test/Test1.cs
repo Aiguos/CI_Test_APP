@@ -19,7 +19,7 @@ namespace Not_Dot_Test
         [Fact, Trait("Category", "B")]
         public void FailTest()
         {
-            var failbool = false;
+            var failbool = true;
 
             Assert.True(failbool);
         }
