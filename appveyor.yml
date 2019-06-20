@@ -34,7 +34,7 @@ before_deploy:
   - PowerShell .\InstallSelfSignedCert.ps1
   
 deploy:
-    -provider: local
+    - provider: local
 
 
 on_success:
