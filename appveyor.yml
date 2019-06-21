@@ -2,6 +2,15 @@ version: 1.0.{build}
 
 image: Visual Studio 2015
 
+
+notifications:
+  - provider: Email
+    to:
+      - mbk@strongminds.dk
+    on_build_success: true
+    on_build_failure: true
+    on_build_status_changed: true
+
 assembly_info:
   patch: true
   file: AssemblyInfo.*
