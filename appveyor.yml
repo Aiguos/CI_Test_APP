@@ -35,10 +35,11 @@ deploy:
 
 
 on_success:
+    - ps: Start-Sleep -s 30
     - ps: Write-host "Testing IP"
     - ps: if (!(Test-Connection 127.0.0.1)){ throw "Connection is not live"  }
     - ps: Write-host "Testing URL"
-    - ps: try { $R = Invoke-WebRequest -URI http://127.0.0.1 } catch { throw "Could not find website!"}
+    - ps: try { $R = Invoke-WebRequest -URI http://google.dk/ } catch { throw "Could not find website!"}
 
 
   
