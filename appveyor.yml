@@ -36,7 +36,6 @@ before_deploy:
 deploy:
   - provider: Environment
     name: Test-Server
-    site_name: Default Web Site
 
 
 on_success:
