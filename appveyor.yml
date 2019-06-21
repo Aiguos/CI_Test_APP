@@ -28,10 +28,6 @@ test:
 test_script:
     - '%xunit20%\xunit.console.x86 "%APPVEYOR_BUILD_FOLDER%\CI_TEST\Not-Dot-Test\bin\Debug\Not-Dot-Test.dll"  -appveyor'      
 
-
-
-before_deploy:
-  - PowerShell .\InstallSelfSignedCert.ps1
   
 deploy:
   - provider: Environment
@@ -40,9 +36,9 @@ deploy:
 
 on_success:
     - ps: Write-host "Testing IP"
-    - ps: if (!(Test-Connection 127.0.0.1:443)){ throw "Connection is not live"  }
+    - ps: if (!(Test-Connection 127.0.0.1)){ throw "Connection is not live"  }
     - ps: Write-host "Testing URL"
-    - ps: try { $R = Invoke-WebRequest -URI http://127.0.0.1:443 } catch { throw "Could not find website!"}
+    - ps: try { $R = Invoke-WebRequest -URI http://127.0.0.1 } catch { throw "Could not find website!"}
 
 
   
