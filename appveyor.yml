@@ -34,8 +34,9 @@ before_deploy:
   - PowerShell .\InstallSelfSignedCert.ps1
   
 deploy:
-     - provider: Environment
-       name: staging
+  - provider: Environment
+    name: test-pc
+    site_name: www.site-to-deploy.c
 
 
 on_success:
