@@ -35,8 +35,8 @@ before_deploy:
   
 deploy:
   - provider: Environment
-    name: test-pc
-    site_name: www.site-to-deploy.c
+    name: Test-Server
+    site_name: Default Web Site
 
 
 on_success:
