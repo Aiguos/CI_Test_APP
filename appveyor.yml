@@ -40,8 +40,6 @@ deploy:
 
 
 on_success:
-    - ps: Write-host "Checking IIS status"
-    - ps: Get-IISSite "Default Web Site"
     - ps: Write-host "Testing IP"
     - ps: if (!(Test-Connection 127.0.0.1:443)){ throw "Connection is not live"  }
     - ps: Write-host "Testing URL"
